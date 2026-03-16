@@ -6,7 +6,8 @@ name: dev_team_push
 on:
  
   push:
-    branches: [ "mainvcbvb" ]
+     paths:
+       -"index.html"
     
   pull_request:
     branches: [ "main" ]
